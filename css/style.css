@@ -1,0 +1,891 @@
+@media only screen and (min-width : 480px) {
+	body
+	{
+		margin:0;
+		padding:0;
+		background:#eecfd4
+	}
+
+	html
+	{
+		scroll-behavior:smooth
+	}
+
+	.m_section
+	{
+		padding-top:100px
+	}
+
+	.desktop_size
+	{
+		width:90%;
+		margin:0 auto
+	}
+
+	.desktop_header
+	{
+		background:#000;
+		height:40px;
+		padding-top:19px;
+		width:100%
+	}
+
+	.header_wrapper
+	{
+		display:flex;
+		justify-content:center
+	}
+
+	.top_menu
+	{
+		display:none
+	}
+
+	.h_link
+	{
+		width:25%;
+		text-align:center
+	}
+
+	.h_link a
+	{
+		text-decoration:none;
+		color:#e3eef6e7
+	}
+
+	.h_link:hover a
+	{
+		color:#000
+	}
+
+	.h_link:hover
+	{
+		background-color:#e3eef6e7
+	}
+
+	.cover_doma
+	{
+		background:#000;
+		width:100%
+	}
+
+	.cover_heading
+	{
+		font-size:60px;
+		color:#f0f8ff;
+		position:absolute;
+		top:5%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		text-align:center;
+		text-shadow:3px 1px 1px #000
+	}
+
+	.cover_wrapper
+	{
+		display:flex;
+		flex-direction:column;
+		padding-bottom:15px
+	}
+
+	.bg_photo
+	{
+		display:flex;
+		justify-content:center;
+		margin-bottom:-9%
+	}
+
+	.bg_photo img
+	{
+		width:68%;
+		position:relative
+	}
+
+	.info_wrapper
+	{
+		display:flex;
+		justify-content:center;
+		width:100%;
+		color:#f0f8ff
+	}
+
+	.cover_hours
+	{
+		text-shadow:3px 1px 1px #000;
+		padding-top:5%
+	}
+
+	.cover_addy
+	{
+		display:none
+	}
+
+	.zanas_section
+	{
+		padding-top:2%
+	}
+
+	.section_title
+	{
+		display:flex;
+		justify-content:center;
+		font-size:30px;
+		padding-top:20px;
+		padding-bottom:2%;
+		position:relative
+	}
+
+	.zanas_wrapper
+	{
+		display:flex;
+		justify-content:space-between
+	}
+
+	.sub_head
+	{
+		display:none
+	}
+
+	.zanas_image
+	{
+		display:none
+	}
+
+	.zanas_text_section
+	{
+		display:flex;
+		width:100%;
+		text-align:justify
+	}
+
+	.zanas_text_section2
+	{
+		padding-top:20px;
+		text-align:justify
+	}
+
+	.zanas_text_section3
+	{
+		display:flex;
+		padding-top:30px;
+		padding-bottom:30px;
+		justify-content:center;
+		font-weight:700
+	}
+
+	.zanas_image_m
+	{
+		display:flex;
+		width:100%;
+		justify-content:center
+	}
+
+	.zanas_image_m img
+	{
+		width:70%
+	}
+
+	iframe
+	{
+		width:220%
+	}
+
+	.m_section
+	{
+		background-color:#000;
+		color:#e3eef6e7;
+		padding-bottom:7%
+	}
+
+	.section_title_m
+	{
+		display:flex;
+		justify-content:center;
+		font-size:30px;
+		position:relative;
+		padding-bottom:10%
+	}
+
+	.meni_wrapper
+	{
+		align-items:center;
+		display:flex;
+		justify-content:space-evenly;
+		padding-bottom:50px
+	}
+
+	.hrana_wrapper
+	{
+		padding-left:5%;
+		padding-right:5%;
+		transition:transform .3s ease
+	}
+
+	.meni_hrana
+	{
+		text-align:center
+	}
+
+	.leb
+	{
+		margin-bottom:10px
+	}
+
+	.pecivo
+	{
+		margin-bottom:10px
+	}
+
+	.pi1
+	{
+		margin-bottom:10px
+	}
+
+	.pi2
+	{
+		margin-bottom:10px
+	}
+
+	.pijaloci_wrapper
+	{
+		padding-left:5%;
+		padding-right:5%;
+		transition:transform .3s ease
+	}
+
+	.meni_pijaloci
+	{
+		text-align:center
+	}
+
+	ul
+	{
+		list-style-type:none
+	}
+
+	.pijaloci_wrapper:hover
+	{
+		transform:scale(1.5);
+		transition:transform .3s ease;
+		box-shadow:0 0 10px rgba(113,108,108,0.681);
+		background-color:#ffffff75;
+		border-radius:20px;
+		color:#000
+	}
+
+	.hrana_wrapper:hover
+	{
+		transform:scale(1.5);
+		transition:transform .3s ease;
+		box-shadow:0 0 10px rgba(113,108,108,0.703);
+		background-color:#fcfcfc63;
+		border-radius:20px;
+		color:#000
+	}
+
+	.section_title_l
+	{
+		display:flex;
+		justify-content:center;
+		font-size:30px;
+		padding-top:20px;
+		padding-bottom:10%;
+		position:relative
+	}
+
+	.lokacija_section
+	{
+		display:flex;
+		padding-top:3%
+	}
+
+	.lokacija_wrapper
+	{
+		display:flex;
+		justify-content:space-between;
+		width:100%;
+		padding-bottom:8%
+	}
+
+	.lokacija_image
+	{
+		width:45%
+	}
+
+	.lokacija_text
+	{
+		display:none
+	}
+
+	.reservation_section
+	{
+		position:relative;
+		padding-top:5%;
+		background-color:#ffffff52;
+		overflow:hidden
+	}
+
+	.background_image_d
+	{
+		display:none
+	}
+
+	.b_image_mob
+	{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		z-index:-1;
+		pointer-events:none;
+		z-index:-1
+	}
+
+	.b_image_mob img
+	{
+		width:100%;
+		height:100%;
+		object-fit:cover
+	}
+
+	.section_title
+	{
+		font-size:30px;
+		text-align:center;
+		margin-bottom:20px
+	}
+
+	.reservation_form
+	{
+		position:relative;
+		z-index:1;
+		max-width:500px;
+		margin:0 auto;
+		background-color:#f5f5f544;
+		padding:20px;
+		border-radius:5px;
+		box-shadow:0 0 10px rgba(0,0,0,0.1);
+		padding-top:8%
+	}
+
+	.form_group
+	{
+		margin-bottom:20px
+	}
+
+	label
+	{
+		display:block;
+		font-weight:700
+	}
+
+	input[type="text"],input[type="email"],input[type="tel"],input[type="date"],input[type="time"],input[type="number"],textarea
+	{
+		width:100%;
+		padding:10px;
+		border-radius:5px;
+		border:1px solid #ccc;
+		box-sizing:border-box
+	}
+
+	input[type="submit"]
+	{
+		background-color:#000;
+		color:#fff;
+		padding:10px 20px;
+		border:none;
+		border-radius:5px;
+		cursor:pointer;
+		box-shadow:3px 3px 3px rgba(0,0,0,0.501)
+	}
+
+	input[type="submit"]:hover
+	{
+		background-color:#9ea5ac
+	}
+
+	.form_group_btn
+	{
+		text-align:center
+	}
+
+	.form_group_btn input[type="submit"]
+	{
+		margin:0 auto;
+		display:block
+	}
+
+	.footer_section
+	{
+		display:flex;
+		justify-content:center;
+		background-color:#000;
+		color:#fff;
+		margin-top:3%
+	}
+
+	.copyright
+	{
+		font-size:small
+	}
+}
+
+
+
+
+
+
+
+@media only screen and (min-width : 992px) {
+	body
+	{
+		margin:0;
+		padding:0;
+		background:#eecfd4
+	}
+
+	html
+	{
+		scroll-behavior:smooth
+	}
+
+	header
+	{
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		z-index:1000;
+		background:#000;
+		transition:position .3s ease-in-out
+	}
+
+	.m_section
+	{
+		padding-top:100px
+	}
+
+	.desktop_size
+	{
+		width:86%;
+		margin:0 auto
+	}
+
+	.desktop_header
+	{
+		background:#000;
+		height:40px;
+		padding-top:19px
+	}
+
+	.header_wrapper
+	{
+		display:flex;
+		justify-content:center
+	}
+
+	.top_menu
+	{
+		display:flex;
+		justify-content:space-evenly;
+		color:#fff;
+		width:90%;
+		text-decoration:none
+	}
+
+	.h_link
+	{
+		width:25%;
+		text-align:center
+	}
+
+	.h_link a
+	{
+		text-decoration:none;
+		color:#e3eef6e7
+	}
+
+	.h_link:hover a
+	{
+		color:#000
+	}
+
+	.h_link:hover
+	{
+		background-color:#e3eef6e7
+	}
+
+	.cover_doma
+	{
+		background:#000
+	}
+
+	.cover_heading
+	{
+		font-size:80px;
+		color:#f0f8ff;
+		position:absolute;
+		left:45%;
+		top:40%;
+		text-align:center;
+		text-shadow:3px 1px 1px #000;
+		right:45%
+	}
+
+	.cover_wrapper
+	{
+		display:flex;
+		flex-direction:column;
+		padding-bottom:15px
+	}
+
+	.bg_photo
+	{
+		display:flex;
+		justify-content:center;
+		margin-bottom:-9%;
+		width:100%
+	}
+
+	.bg_photo img
+	{
+		width:81%;
+		position:relative
+	}
+
+	.info_wrapper
+	{
+		display:flex;
+		justify-content:space-between;
+		width:100%;
+		color:#f0f8ff;
+		margin-top:-18.5%;
+		position:relative;
+		align-items:flex-end
+	}
+
+	.cover_hours
+	{
+		padding-right:400px;
+		text-shadow:3px 1px 1px #000
+	}
+
+	.cover_addy
+	{
+		text-shadow:3px 1px 1px #000;
+		display:inherit
+	}
+
+	.zanas_section
+	{
+		padding-top:2%
+	}
+
+	.section_title
+	{
+		display:flex;
+		justify-content:center;
+		font-size:30px;
+		padding-top:20px;
+		padding-bottom:2%;
+		position:relative
+	}
+
+	.zanas_wrapper
+	{
+		display:flex;
+		justify-content:space-between
+	}
+
+	.sub_head
+	{
+		display:flex;
+		justify-content:center;
+		font-size:20px;
+		padding-bottom:1.5%
+	}
+
+	.zanas_image
+	{
+		display:flex;
+		width:40%
+	}
+
+	.zanas_image img
+	{
+		width:100%;
+		padding-left:10%;
+		height:84%
+	}
+
+	.zanas_text_section
+	{
+		display:flex;
+		width:66%
+	}
+
+	.zanas_text_section2
+	{
+		padding-top:20px
+	}
+
+	.zanas_text_section3
+	{
+		display:flex;
+		padding-top:30px;
+		padding-bottom:30px;
+		justify-content:center;
+		font-weight:700
+	}
+
+	.zanas_image_m
+	{
+		display:none
+	}
+
+	.m_section
+	{
+		background-color:#000;
+		color:#e3eef6e7;
+		padding-bottom:7%
+	}
+
+	.section_title_m
+	{
+		display:flex;
+		justify-content:center;
+		font-size:30px;
+		position:relative;
+		padding-bottom:10%
+	}
+
+	.meni_wrapper
+	{
+		align-items:center;
+		display:flex;
+		justify-content:space-evenly;
+		padding-bottom:50px
+	}
+
+	.hrana_wrapper
+	{
+		padding-left:5%;
+		padding-right:5%;
+		transition:transform .3s ease
+	}
+
+	.meni_hrana
+	{
+		text-align:center
+	}
+
+	.leb
+	{
+		margin-bottom:10px
+	}
+
+	.pecivo
+	{
+		margin-bottom:10px
+	}
+
+	.pi1
+	{
+		margin-bottom:10px
+	}
+
+	.pi2
+	{
+		margin-bottom:10px
+	}
+
+	.pijaloci_wrapper
+	{
+		padding-left:5%;
+		padding-right:5%;
+		transition:transform .3s ease
+	}
+
+	.meni_pijaloci
+	{
+		text-align:center
+	}
+
+	ul
+	{
+		list-style-type:none
+	}
+
+	.pijaloci_wrapper:hover
+	{
+		transform:scale(1.5);
+		transition:transform .3s ease;
+		box-shadow:0 0 10px rgba(113,108,108,0.681);
+		background-color:#ffffff75;
+		border-radius:20px;
+		color:#000
+	}
+
+	.hrana_wrapper:hover
+	{
+		transform:scale(1.5);
+		transition:transform .3s ease;
+		box-shadow:0 0 10px rgba(113,108,108,0.703);
+		background-color:#fcfcfc63;
+		border-radius:20px;
+		color:#000
+	}
+
+	.section_title_l
+	{
+		display:flex;
+		justify-content:center;
+		font-size:30px;
+		padding-top:20px;
+		padding-bottom:10%;
+		position:relative
+	}
+
+	.lokacija_section
+	{
+		display:flex;
+		padding-top:3%
+	}
+
+	.lokacija_wrapper
+	{
+		display:flex;
+		justify-content:space-between;
+		width:100%;
+		padding-bottom:8%
+	}
+
+	.lokacija_image
+	{
+		display:flex;
+		width:45%
+	}
+
+	.lokacija_text
+	{
+		padding-top:8%;
+		width:45%;
+		padding-left:16%;
+		display:flex
+	}
+
+	.reservation_section
+	{
+		position:relative;
+		position:relative;
+		padding-top:7%;
+		padding-bottom:5%;
+		background-color:#ffffff52;
+		background-size:cover;
+		background-repeat:no-repeat;
+		background-position:center;
+		overflow:hidden
+	}
+
+	.b_image_mob
+	{
+		display:none
+	}
+
+	.background_image_d
+	{
+		display:block;
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index:-1
+	}
+
+	.background_image_d img
+	{
+		width:100%;
+		height:100%;
+		object-fit:cover;
+		display:block
+	}
+
+	.section_title
+	{
+		font-size:30px;
+		text-align:center;
+		margin-bottom:20px
+	}
+
+	.reservation_form
+	{
+		max-width:500px;
+		margin:0 auto;
+		background-color:#f5f5f544;
+		padding:20px;
+		border-radius:5px;
+		box-shadow:0 0 10px rgba(0,0,0,0.1)
+	}
+
+	.form_group
+	{
+		margin-bottom:20px
+	}
+
+	label
+	{
+		display:block;
+		font-weight:700
+	}
+
+	input[type="text"],input[type="email"],input[type="tel"],input[type="date"],input[type="time"],input[type="number"],textarea
+	{
+		width:100%;
+		padding:10px;
+		border-radius:5px;
+		border:1px solid #ccc;
+		box-sizing:border-box
+	}
+
+	input[type="submit"]
+	{
+		background-color:#000;
+		color:#fff;
+		padding:10px 20px;
+		border:none;
+		border-radius:5px;
+		cursor:pointer;
+		box-shadow:3px 3px 3px rgba(0,0,0,0.501)
+	}
+
+	input[type="submit"]:hover
+	{
+		background-color:#9ea5ac
+	}
+
+	.form_group_btn
+	{
+		text-align:center
+	}
+
+	.form_group_btn input[type="submit"]
+	{
+		margin:0 auto;
+		display:block
+	}
+
+	.footer_section
+	{
+		width:100%;
+		display:flex;
+		justify-content:center;
+		background-color:#000;
+		color:#fff
+	}
+
+	.copyright
+	{
+		font-size:small
+	}
+}
